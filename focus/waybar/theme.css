@@ -1,0 +1,26 @@
+/* Sigil Theme: Focus — neutral clarity and teal composure */
+
+@define-color accent        #64d6c2;
+@define-color main-br       #4b5c66;
+@define-color main-bg       #121a1e;
+@define-color main-fg       #dfe6e9;
+@define-color hover-bg      #1a2428;
+@define-color hover-fg      alpha(@main-fg, 0.7);
+@define-color outline       #324046;
+
+/* module colors */
+@define-color workspaces    #1a2226;
+@define-color temperature   #1c252a;
+@define-color memory        #202a2e;
+@define-color cpu           #202c30;
+@define-color time          #1a2328;
+@define-color date          #1a242a;
+@define-color tray          #182026;
+@define-color volume        #1b2b30;
+@define-color backlight     #19262a;
+@define-color battery       #182428;
+
+/* state colors */
+@define-color warning       #ffd97a;
+@define-color critical      #ff6f61;
+@define-color charging      #6cf0c4;

@@ -1,0 +1,26 @@
+window {
+  margin: 0px;
+  border: 1px solid #FF9933;
+  background-color: #1A0B00;
+}
+
+#input {
+  color: #FFD7A0;
+  background-color: #2A1000;
+  border: none;
+}
+
+#inner-box, #outer-box {
+  background-color: #1A0B00;
+  margin: 5px;
+}
+
+#text {
+  color: #FFE4C4;
+  margin: 5px;
+}
+
+#entry:selected {
+  background-color: #2A1200;
+  color: #FFD27F;
+}

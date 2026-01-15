@@ -1,0 +1,26 @@
+/* Sigil Theme: Night — deep twilight and soft violet edges */
+
+@define-color accent        #9f87ff;
+@define-color main-br       #3b3b5a;
+@define-color main-bg       #0d0d14;
+@define-color main-fg       #d6d2ff;
+@define-color hover-bg      #141426;
+@define-color hover-fg      alpha(@main-fg, 0.75);
+@define-color outline       #2b2b44;
+
+/* module colors */
+@define-color workspaces    #1a1a2a;
+@define-color temperature   #1c1c30;
+@define-color memory        #1b1b33;
+@define-color cpu           #191930;
+@define-color time          #151526;
+@define-color date          #131324;
+@define-color tray          #18182a;
+@define-color volume        #18182f;
+@define-color backlight     #151520;
+@define-color battery       #181828;
+
+/* state colors */
+@define-color warning       #ffd37a;
+@define-color critical      #ff5c8a;
+@define-color charging      #8df7ff;

@@ -1,0 +1,26 @@
+/* Sigil Theme: Matrix — electric neon over carbon black */
+
+@define-color accent        #00ff66;
+@define-color main-br       #004422;
+@define-color main-bg       #000000;
+@define-color main-fg       #aaffcc;
+@define-color hover-bg      #001a00;
+@define-color hover-fg      alpha(@main-fg, 0.8);
+@define-color outline       #004d26;
+
+/* module colors */
+@define-color workspaces    #001a0d;
+@define-color temperature   #002211;
+@define-color memory        #00331a;
+@define-color cpu           #002b1a;
+@define-color time          #001f14;
+@define-color date          #002214;
+@define-color tray          #001f12;
+@define-color volume        #002b17;
+@define-color backlight     #001c0d;
+@define-color battery       #00331a;
+
+/* state colors */
+@define-color warning       #99ff66;
+@define-color critical      #ff4444;
+@define-color charging      #33ff99;

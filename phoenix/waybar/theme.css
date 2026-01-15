@@ -1,0 +1,26 @@
+/* Sigil Theme: Phoenix — ember glow on dark volcanic glass */
+
+@define-color accent        #ff784f;
+@define-color main-br       #662a1f;
+@define-color main-bg       #1a0d0b;
+@define-color main-fg       #ffd6b0;
+@define-color hover-bg      #2a0f0c;
+@define-color hover-fg      alpha(@main-fg, 0.85);
+@define-color outline       #803828;
+
+/* module colors */
+@define-color workspaces    #2a110e;
+@define-color temperature   #33130f;
+@define-color memory        #3a150f;
+@define-color cpu           #32120f;
+@define-color time          #2c0f0d;
+@define-color date          #2a0d0b;
+@define-color tray          #33110f;
+@define-color volume        #33120f;
+@define-color backlight     #2a100d;
+@define-color battery       #2a110d;
+
+/* state colors */
+@define-color warning       #ffcc66;
+@define-color critical      #ff3333;
+@define-color charging      #ff9966;
